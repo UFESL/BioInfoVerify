@@ -102,8 +102,8 @@ This repository is divided into three subdirectories, each focusing on a specifi
 ### 3. Theorem Proving
 - **What it does**: Performs theorem proving for specific functionalities in bioinformatics software.
 - **Tools used**: Rosette (formal verification language).
-- **Applications/Libraries**: 
-  - DNA Sequencing (abstract functionality)
+- **Operations**: 
+  - DNA Sequencing s
   - Seeding Alignment (abstract functionality)
 - **How to run**:
   1. Install Rosette by following the [installation instructions](https://github.com/emina/rosette).
