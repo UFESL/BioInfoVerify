@@ -1,0 +1,2 @@
+/usr/bin/ar qc libgtest.a "CMakeFiles/gtest.dir/src/gtest-all.cc.o"
+/opt/homebrew/Cellar/llvm/17.0.6/bin/llvm-ranlib libgtest.a

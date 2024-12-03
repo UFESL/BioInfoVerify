@@ -1,0 +1,63 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install"
+		],
+		"files" : 
+		[
+			"cmake-build-debug/_deps/divsufsort-src/lib/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 8,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 21,
+				"parent" : 0
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"_deps/divsufsort-build/lib/libdivsufsort.a"
+			],
+			"targetId" : "divsufsort::@40dc205fb814bcd2e109",
+			"targetIndex" : 74,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 2,
+			"component" : "Unspecified",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"_deps/divsufsort-build/lib/libdivsufsort64.a"
+			],
+			"targetId" : "divsufsort64::@40dc205fb814bcd2e109",
+			"targetIndex" : 76,
+			"type" : "target"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "_deps/divsufsort-build/lib",
+		"source" : "cmake-build-debug/_deps/divsufsort-src/lib"
+	}
+}

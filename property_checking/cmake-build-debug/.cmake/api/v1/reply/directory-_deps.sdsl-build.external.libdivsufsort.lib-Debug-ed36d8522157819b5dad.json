@@ -1,0 +1,63 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install"
+		],
+		"files" : 
+		[
+			"cmake-build-debug/_deps/sdsl-src/external/libdivsufsort/lib/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 8,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 21,
+				"parent" : 0
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "/usr/local/lib",
+			"paths" : 
+			[
+				"_deps/sdsl-build/external/libdivsufsort/lib/libdivsufsort.a"
+			],
+			"targetId" : "divsufsort::@36f06ce86c7fe522c77d",
+			"targetIndex" : 75,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 2,
+			"component" : "Unspecified",
+			"destination" : "/usr/local/lib",
+			"paths" : 
+			[
+				"_deps/sdsl-build/external/libdivsufsort/lib/libdivsufsort64.a"
+			],
+			"targetId" : "divsufsort64::@36f06ce86c7fe522c77d",
+			"targetIndex" : 77,
+			"type" : "target"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "_deps/sdsl-build/external/libdivsufsort/lib",
+		"source" : "cmake-build-debug/_deps/sdsl-src/external/libdivsufsort/lib"
+	}
+}

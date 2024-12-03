@@ -1,0 +1,150 @@
+{
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"ADD_CUSTOM_TARGET"
+		],
+		"files" : 
+		[
+			"cmake-build-debug/_deps/sdsl-src/test/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 185,
+				"parent" : 0
+			}
+		]
+	},
+	"dependencies" : 
+	[
+		{
+			"id" : "bit-vector-test::@c593a3635781ae508a1e"
+		},
+		{
+			"id" : "bits-test::@c593a3635781ae508a1e"
+		},
+		{
+			"id" : "coder-test::@c593a3635781ae508a1e"
+		},
+		{
+			"id" : "compile-test::@c593a3635781ae508a1e"
+		},
+		{
+			"id" : "csa-byte-test::@c593a3635781ae508a1e"
+		},
+		{
+			"id" : "csa-int-test::@c593a3635781ae508a1e"
+		},
+		{
+			"id" : "cst-byte-test::@c593a3635781ae508a1e"
+		},
+		{
+			"id" : "cst-int-test::@c593a3635781ae508a1e"
+		},
+		{
+			"id" : "dac-vector-test::@c593a3635781ae508a1e"
+		},
+		{
+			"id" : "int-vector-buffer-test::@c593a3635781ae508a1e"
+		},
+		{
+			"id" : "int-vector-mapper-test::@c593a3635781ae508a1e"
+		},
+		{
+			"id" : "int-vector-test::@c593a3635781ae508a1e"
+		},
+		{
+			"id" : "inv-perm-support-test::@c593a3635781ae508a1e"
+		},
+		{
+			"id" : "k2-treap-test::@c593a3635781ae508a1e"
+		},
+		{
+			"id" : "select-support-test::@c593a3635781ae508a1e"
+		},
+		{
+			"id" : "k2-tree-test::@c593a3635781ae508a1e"
+		},
+		{
+			"id" : "lcp-construct-test::@c593a3635781ae508a1e"
+		},
+		{
+			"id" : "nn-dict-dynamic-test::@c593a3635781ae508a1e"
+		},
+		{
+			"id" : "rank-support-test::@c593a3635781ae508a1e"
+		},
+		{
+			"id" : "rmq-test::@c593a3635781ae508a1e"
+		},
+		{
+			"id" : "sa-construct-test::@c593a3635781ae508a1e"
+		},
+		{
+			"id" : "sd-vector-test::@c593a3635781ae508a1e"
+		},
+		{
+			"id" : "search-bidirectional-test::@c593a3635781ae508a1e"
+		},
+		{
+			"id" : "sorted-int-stack-test::@c593a3635781ae508a1e"
+		},
+		{
+			"id" : "sorted-stack-support-test::@c593a3635781ae508a1e"
+		},
+		{
+			"id" : "wt-byte-test::@c593a3635781ae508a1e"
+		},
+		{
+			"id" : "wt-int-test::@c593a3635781ae508a1e"
+		}
+	],
+	"id" : "test-sdsl::@c593a3635781ae508a1e",
+	"name" : "test-sdsl",
+	"paths" : 
+	{
+		"build" : "_deps/sdsl-build/test",
+		"source" : "cmake-build-debug/_deps/sdsl-src/test"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		},
+		{
+			"name" : "CMake Rules",
+			"sourceIndexes" : 
+			[
+				1
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 1,
+			"isGenerated" : true,
+			"path" : "cmake-build-debug/_deps/sdsl-build/test/CMakeFiles/test-sdsl",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "cmake-build-debug/_deps/sdsl-build/test/CMakeFiles/test-sdsl.rule",
+			"sourceGroupIndex" : 1
+		}
+	],
+	"type" : "UTILITY"
+}

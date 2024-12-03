@@ -1,0 +1,73 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install"
+		],
+		"files" : 
+		[
+			"cmake-build-debug/_deps/sdsl-src/external/googletest/googletest/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 105,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 107,
+				"parent" : 0
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"_deps/sdsl-build/external/googletest/googletest/libgtest.a"
+			],
+			"targetId" : "gtest::@cc55464ead2beace3368",
+			"targetIndex" : 79,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"_deps/sdsl-build/external/googletest/googletest/libgtest_main.a"
+			],
+			"targetId" : "gtest_main::@cc55464ead2beace3368",
+			"targetIndex" : 80,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 2,
+			"component" : "Unspecified",
+			"destination" : "include",
+			"paths" : 
+			[
+				"cmake-build-debug/_deps/sdsl-src/external/googletest/googletest/include/gtest"
+			],
+			"type" : "directory"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "_deps/sdsl-build/external/googletest/googletest",
+		"source" : "cmake-build-debug/_deps/sdsl-src/external/googletest/googletest"
+	}
+}

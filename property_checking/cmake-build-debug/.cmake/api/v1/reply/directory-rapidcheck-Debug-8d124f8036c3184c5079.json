@@ -1,0 +1,104 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install"
+		],
+		"files" : 
+		[
+			"rapidcheck/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 90,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 96,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 125,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 141,
+				"parent" : 0
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"rapidcheck/librapidcheck.a"
+			],
+			"targetId" : "rapidcheck::@6d0e2ab76300535f17ff",
+			"targetIndex" : 148,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 2,
+			"component" : "Unspecified",
+			"destination" : "/home/hasini/Documents/Bio-informatics/rapid-sdsl/sdsl-lite/build",
+			"paths" : 
+			[
+				{
+					"from" : "rapidcheck/include",
+					"to" : "."
+				}
+			],
+			"type" : "directory"
+		},
+		{
+			"backtrace" : 3,
+			"component" : "Unspecified",
+			"destination" : "share/rapidcheck/cmake",
+			"exportName" : "rapidcheckConfig",
+			"exportTargets" : 
+			[
+				{
+					"id" : "rapidcheck::@6d0e2ab76300535f17ff",
+					"index" : 148
+				}
+			],
+			"paths" : 
+			[
+				"rapidcheck/CMakeFiles/Export/cfc2e163caa257db3b835d2a8be41964/rapidcheckConfig.cmake"
+			],
+			"type" : "export"
+		},
+		{
+			"backtrace" : 4,
+			"component" : "Unspecified",
+			"destination" : "/pkgconfig",
+			"paths" : 
+			[
+				"cmake-build-debug/rapidcheck/rapidcheck.pc"
+			],
+			"type" : "file"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "rapidcheck",
+		"source" : "rapidcheck"
+	}
+}

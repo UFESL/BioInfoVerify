@@ -1,0 +1,2 @@
+/usr/bin/ar qc libgtest_main.a CMakeFiles/gtest_main.dir/src/gtest_main.cc.o
+/opt/homebrew/Cellar/llvm/17.0.6/bin/llvm-ranlib libgtest_main.a

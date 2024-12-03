@@ -1,0 +1,87 @@
+{
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"ADD_CUSTOM_TARGET"
+		],
+		"files" : 
+		[
+			"cmake-build-debug/_deps/sdsl-src/test/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 180,
+				"parent" : 0
+			}
+		]
+	},
+	"dependencies" : 
+	[
+		{
+			"id" : "sa-construct-test_empty.txt::@c593a3635781ae508a1e"
+		},
+		{
+			"id" : "sa-construct-test_one_byte.txt::@c593a3635781ae508a1e"
+		},
+		{
+			"id" : "sa-construct-test_example01.txt::@c593a3635781ae508a1e"
+		},
+		{
+			"id" : "sa-construct-test_100a.txt::@c593a3635781ae508a1e"
+		},
+		{
+			"id" : "sa-construct-test_faust.txt::@c593a3635781ae508a1e"
+		},
+		{
+			"id" : "sa-construct-test_zarathustra.txt::@c593a3635781ae508a1e"
+		}
+	],
+	"id" : "sa-construct-test::@c593a3635781ae508a1e",
+	"name" : "sa-construct-test",
+	"paths" : 
+	{
+		"build" : "_deps/sdsl-build/test",
+		"source" : "cmake-build-debug/_deps/sdsl-src/test"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		},
+		{
+			"name" : "CMake Rules",
+			"sourceIndexes" : 
+			[
+				1
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 1,
+			"isGenerated" : true,
+			"path" : "cmake-build-debug/_deps/sdsl-build/test/CMakeFiles/sa-construct-test",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "cmake-build-debug/_deps/sdsl-build/test/CMakeFiles/sa-construct-test.rule",
+			"sourceGroupIndex" : 1
+		}
+	],
+	"type" : "UTILITY"
+}
