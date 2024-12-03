@@ -40,20 +40,61 @@ This repository is divided into three subdirectories, each focusing on a specifi
   - Dashing ([Baker 2019](https://github.com/dnbaker/dashing))
   - SPAdes ([Prjibelski 2020](https://github.com/ablab/spades))
   - MUMmer ([Marçais 2018](https://github.com/mummer4/mummer))
-- **How to run**:
-  1. Install RapidCheck by following the [installation guide](https://github.com/emil-e/rapidcheck).
-  2. Navigate to the `property_checking` directory.
-  3. Modify the `CMakeLists.txt` file to include the library source.
-  4. Run the following commands:
+
+#### How to run:
+1. **Install RapidCheck**:  
+   Follow the [RapidCheck installation guide](https://github.com/emil-e/rapidcheck). Make sure you have a working C++ compiler and CMake installed.
+
+2. **Set up the build environment**:
+   - Navigate to the `property_checking` directory.
+   - Run the following commands:
      ```bash
      mkdir build && cd build
      cmake ..
      make
+     ```
+
+3. **Run existing tests**:  
+   After the build is complete, you can execute the default test binaries. For example:
+     ```bash
      ./test_property_based
      ```
-  Example command for BWA:
+
+4. **Add your own tests**:  
+   To test the **BWA library**, follow these steps:
+
+   - **Create a new test file**: Add a file named `BwaTests.cpp` to the `test` directory.
+     ```cpp
+     // Example: test/bwa_property_test.cpp
+     #include <rapidcheck.h>
+     #include "bwa/bwa.h"  // Include the BWA header files here
+
+     RC_GTEST_PROP(BWA, bwa_mem_test, (const std::string &input)) {
+         auto output = bwa_mem(input.c_str());  // Replace with actual BWA function
+         RC_ASSERT(output != nullptr);         // Example property to verify
+     }
+     ```
+
+   - **Update `CMakeLists.txt`**:  
+     Modify the `CMakeLists.txt` file in the `property_checking` directory to include your new test file:
+     ```cmake
+     # Add a new test executable
+     add_executable(bwa_property_test test/BwaTests.cpp)
+
+     # Link necessary libraries (RapidCheck and BWA)
+     target_include_directories(bwa_property_test PRIVATE src/bwa)
+     target_link_libraries(bwa_property_test PRIVATE bwa rapidcheck)
+     ```
+
+   - **Rebuild the project**:
      ```bash
-     ./test_property_based bwa_function_test
+     cd build
+     make
+     ```
+
+   - **Run your new tests**:
+     ```bash
+     ./bwa_property_test
      ```
 
 ---
