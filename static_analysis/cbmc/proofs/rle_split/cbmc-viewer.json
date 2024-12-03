@@ -1,0 +1,7 @@
+{ "expected-missing-functions":
+  [
+
+  ],
+  "proof-name": "rle_split",
+  "proof-root": "cbmc/proofs"
+}

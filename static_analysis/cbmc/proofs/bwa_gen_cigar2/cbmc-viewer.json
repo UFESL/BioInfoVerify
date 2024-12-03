@@ -1,0 +1,7 @@
+{ "expected-missing-functions":
+  [
+
+  ],
+  "proof-name": "bwa_gen_cigar2",
+  "proof-root": "cbmc/proofs"
+}
