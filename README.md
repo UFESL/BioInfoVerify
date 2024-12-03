@@ -14,7 +14,7 @@ This repository is divided into three subdirectories, each focusing on a specifi
 - **What it does**: Detects generic vulnerabilities in bioinformatics libraries.
 - **Tools used**: CBMC (C Bounded Model Checker).
 - **Applications/Libraries**: 
-  - BiopLib ([Porter 2015](https://github.com/porterinhand/bioplib))
+  - BiopLib ([Porter 2015](https://github.com/ACRMGroup/bioptools))
   - BWA ([Li 2009](https://github.com/lh3/bwa))
 - **How to run**: 
   1. Install CBMC using [installation guide](https://www.cprover.org/cbmc/).
@@ -69,12 +69,8 @@ This repository is divided into three subdirectories, each focusing on a specifi
   2. Navigate to the `theorem_proving` directory.
   3. Run the provided Rosette model using Racket:
      ```bash
-     racket dna_sequencing_model.rkt
-     racket seeding_alignment_model.rkt
-     ```
-  Example command for DNA Sequencing:
-     ```bash
-     racket dna_sequencing_model.rkt
+     racket seedingAlignment.rkt
+     racket sequencing.rkt
      ```
 
 ---
